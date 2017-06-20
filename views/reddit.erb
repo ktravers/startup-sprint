@@ -1,1 +1,17 @@
+<div>
+  <div class="column">
+    <p> Reddit Feed </p>
 
+      <% @listings.each do |item| %>
+
+          <a href= <%= item["data"]["url"] %>>
+            <%= item["data"]["title"] %>
+          </a><br>
+          <p>
+          <img src=<%= item["data"]["thumbnail"]%>>
+         </p>
+          <br><br>
+      <% end %>
+    </ol>
+  </div>
+</div>
