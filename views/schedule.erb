@@ -1,4 +1,3 @@
-
 <div>
   <div class="column">
     <h3>Today</h3>
@@ -16,4 +15,16 @@
       <% end %>
     </ol>
   </div>
+  <div class="column">
+    <h3>Day After</h3>
+    <ol>
+      <% @day_after.each do |item| %>
+        <li><%= item.first %>: <%= item.last %></li>
+      <% end %>
+    </ol>
+  </div>
+
+  .column-left{ float: left; }
+  .column-right{ float: right;}
+  .column-center{display: inline-block;}
 </div>
