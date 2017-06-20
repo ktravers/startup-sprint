@@ -79,6 +79,10 @@ class App < Sinatra::Base
     ]
 
     erb :schedule
+    end
+
+    get '/rainbow' do
+      erb :rainbow
   end
 
   get '/youtube' do
