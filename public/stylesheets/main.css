@@ -9,3 +9,6 @@
 #rainbow {
   background: repeating-linear-gradient(#74ABDD, #74ABDD 49.9%, #498DCB 50.1%, #498DCB 100%);
 }
+.nav {
+  list-style: none;
+}
