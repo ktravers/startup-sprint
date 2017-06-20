@@ -26,4 +26,4 @@ You'll want to create a new git branch for each ticket, and do your work on that
 
 Submit a separate pull request for each ticket, and be sure to link your pull request to the ticket for easy reference.
 
-Review each other's work before merging :shipit:
+Review each other's work before merging testing :shipit:
