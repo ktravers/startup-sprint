@@ -43,6 +43,35 @@ section {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+#temp{
+  clear: left;
+  padding-left: 10%;
+}
+ .nav {
+   list-style: none;
+   background-color: #111;
+
+ }
+
+ li {
+   display: inline;
+   float: left;
+   background-color: #111;
+ }
+
+ li a {
+   display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: red;
+}
+
+
 
 h1 {
   font-size: 2em;
