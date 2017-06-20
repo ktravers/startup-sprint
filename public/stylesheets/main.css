@@ -1,6 +1,60 @@
 /*
  * TODO: add custom styling
  */
+ .nav3 {
+  
+     float: left;
+     padding-left: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     color: #333333;
+     padding-top: 20px;
+     padding-right: 20px;
+ }
+
+ .icons{
+     display:inline-block;
+     width: 64px;
+     height: 64px;
+    }
+
+
+  }
+
+ #R-rainbow { 
+display: block;
+background-color: red;
+height:50px;}
+
+#O-rainbow { 
+display: block;
+background-color: orange;
+height:50px;}
+
+#Y-rainbow { 
+display: block;
+background-color: yellow;
+height:50px;}
+
+#G-rainbow { 
+display: block;
+background-color: green;
+height:50px;}
+
+#B-rainbow { 
+display: block;
+background-color: blue;
+height:50px;}
+
+#I-rainbow { 
+display: block;
+background-color: indigo;
+height:50px;}
+
+#V-rainbow { 
+display: block;
+background-color: violet;
+height:50px;}
 
 .column {
 
