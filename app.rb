@@ -8,6 +8,7 @@ class App < Sinatra::Base
 
   post '/subscribe' do
     @full_name = params[:full_name]
+    @your_city = params[:your_city]
     @email = params[:email]
 
     if !@email.match(/.+@.+/)
