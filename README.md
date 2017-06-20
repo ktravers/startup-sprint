@@ -16,7 +16,7 @@ Fork and clone this lab. You'll probably want to add your teammates as collabora
 
 You'll need to run `bundle install` to install all the necessary Ruby gems.
 
-Start the server with the `rackup` command, you can then view it at "http://localhost:9292".
+Start the server with the `rackup` command, you can then view it at "git ".
 
 ## Recommended Workflow
 
