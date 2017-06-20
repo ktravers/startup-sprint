@@ -6,6 +6,10 @@ class App < Sinatra::Base
     erb :home
   end
 
+  get '/home' do
+    erb :home
+  end
+
   post '/subscribe' do
     @full_name = params[:full_name]
     @email = params[:email]
@@ -13,7 +17,6 @@ class App < Sinatra::Base
     if !@email.match(/.+@.+/)
       redirect to('/?error=email')
     end
-
     erb :subscribe
   end
 
