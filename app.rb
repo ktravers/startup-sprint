@@ -47,8 +47,13 @@ class App < Sinatra::Base
       ['6:30pm', 'Meetup Presentation'],
     ]
 
-    # TODO: add a third day's schedule (@day_after)
+    @day_after = []
 
     erb :schedule
   end
+
+  get '/team' do
+    erb :team
+  end
+  
 end
