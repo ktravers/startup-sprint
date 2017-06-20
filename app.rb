@@ -76,4 +76,9 @@ class App < Sinatra::Base
 
     erb :schedule
   end
+
+  get '/youtube' do
+    erb :youtube
+  end
+
 end
