@@ -2,6 +2,41 @@
  * TODO: add custom styling
  */
 
+ #R-rainbow { 
+display: block;
+background-color: red;
+height:50px;}
+
+#O-rainbow { 
+display: block;
+background-color: orange;
+height:50px;}
+
+#Y-rainbow { 
+display: block;
+background-color: yellow;
+height:50px;}
+
+#G-rainbow { 
+display: block;
+background-color: green;
+height:50px;}
+
+#B-rainbow { 
+display: block;
+background-color: blue;
+height:50px;}
+
+#I-rainbow { 
+display: block;
+background-color: indigo;
+height:50px;}
+
+#V-rainbow { 
+display: block;
+background-color: violet;
+height:50px;}
+
 .column {
 
 }
