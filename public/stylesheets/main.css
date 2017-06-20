@@ -2,6 +2,83 @@
  * TODO: add custom styling
  */
 
-.column {
 
+.column {
+  padding-left: 20px;
+
+
+}
+
+#rainbow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background-color: red 10%, yellow 89.9%;
+}
+
+.nav {
+  list-style: none;
+}
+
+
+ iframe {
+   margin-left: 5%;
+ }
+
+ #temp{
+   clear: left;
+   padding-left: 10%;
+ }
+  .nav {
+    list-style: none;
+    background-color: #111;
+
+  }
+
+ .nav li {
+
+    display: inline;
+    background-color: #111;
+  }
+
+  .nav li a {
+display: inline-block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+     text-decoration: none;
+ }
+
+ .nav li a:hover {
+     background-color: red;
+ }
+
+.column {
+margin-left: 5%;
+float: left;
+width: 22%;
+
+.rotate{-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+
+@media screen and (max-width: 400px) {
+    #hamburger{
+        display: block;
+    }
+    #hamburger div{
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    }
+    .nav {
+        display: none;
+
+    }
 }
