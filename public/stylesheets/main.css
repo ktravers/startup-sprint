@@ -46,8 +46,7 @@ width: 30%;
   overflow: auto;
   background-color: red 10%, yellow 89.9%;
 }
-<<<<<<< HEAD
-=======
+
 
 .nav {
   list-style: none;
@@ -56,4 +55,3 @@ width: 30%;
     -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
     transform: rotate(90deg);
 }
->>>>>>> 3266a92a8d6dfbc7b99f1cd771eb94dec1fccfbe
