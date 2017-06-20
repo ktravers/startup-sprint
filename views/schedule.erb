@@ -15,4 +15,12 @@
       <% end %>
     </ol>
   </div>
+  <div class="column">
+    <h3><a href=http://www.clickhole.com/article/benjamin-franklins-daily-schedule-will-make-you-fe-1655>Day After</a></h3>
+    <ol>
+      <% @day_after.each do |item| %>
+        <li><%= item.first %>: <%= item.last %></li>
+      <% end %>
+    </ol>
+  </div>
 </div>
