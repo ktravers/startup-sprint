@@ -16,6 +16,7 @@ class App < Sinatra::Base
 
   post '/subscribe' do
     @full_name = params[:full_name]
+    @your_city = params[:your_city]
     @email = params[:email]
 
     if !@email.match(/.+@.+/)
@@ -23,6 +24,10 @@ class App < Sinatra::Base
     end
 
     erb :subscribe
+  end
+
+  get '/splash' do
+    erb :splash
   end
 
   get '/reddit' do
