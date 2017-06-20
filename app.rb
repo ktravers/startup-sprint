@@ -1,6 +1,9 @@
 require_relative 'config/environment'
 
 class App < Sinatra::Base
+  get '/home' do
+    redirect to('/')
+  end
   get '/' do
     @error = params['error']
     erb :home
