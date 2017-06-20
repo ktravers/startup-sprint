@@ -53,13 +53,13 @@ section {
 
  }
 
- li {
+.nav li {
    display: inline;
    float: left;
    background-color: #111;
  }
 
- li a {
+ .nav li a {
    display: block;
   color: white;
   text-align: center;
@@ -67,7 +67,7 @@ section {
     text-decoration: none;
 }
 
-li a:hover {
+.nav li a:hover {
     background-color: red;
 }
 
