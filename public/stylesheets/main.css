@@ -5,3 +5,39 @@
 .column {
 
 }
+
+.rainbow-container{
+  height: 1050px;
+}
+
+.rainbow-row {
+  height:150px;
+}
+
+#one {
+  background-color: red;
+}
+
+#two {
+  background-color: orange;
+}
+
+#three {
+  background-color: yellow;
+}
+
+#four {
+  background-color: green;
+}
+
+#five {
+  background-color: blue;
+}
+
+#six {
+  background-color: indigo;
+}
+
+#seven {
+  background-color: violet;
+}
