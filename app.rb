@@ -1,13 +1,21 @@
 require_relative 'config/environment'
+require 'rubygems'
+require 'sinatra'
 
 class App < Sinatra::Base
   get '/' do
     @error = params['error']
     erb :home
+
+  end
+
+  get '/home' do
+    redirect  '/'
   end
 
   post '/subscribe' do
     @full_name = params[:full_name]
+    @city = params[:city]
     @email = params[:email]
 
     if !@email.match(/.+@.+/)
