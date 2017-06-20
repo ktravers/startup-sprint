@@ -2,6 +2,10 @@
  * TODO: add custom styling
  */
 
+ iframe {
+   margin-left: 5%;
+ }
+
  #temp{
    clear: left;
    padding-left: 10%;
@@ -31,9 +35,9 @@ display: inline-block;
  }
 
 .column {
-
+margin-left: 5%;
 float: left;
-width: 30%;
+width: 22%;
 
 }
 
@@ -53,4 +57,30 @@ width: 30%;
 .rotate{-ms-transform: rotate(90deg); /* IE 9 */
     -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
     transform: rotate(90deg);
+}
+
+#hamburger{
+  display: none;
+}
+#hamburger #noshow {
+  visibility: hidden;
+  display: block;
+  height: 30px;
+  width: 30px;
+}
+
+@media screen and (max-width: 400px) {
+    #hamburger{
+        display: block;
+    }
+    #hamburger div{
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    }
+    .nav {
+        display: none;
+
+    }
 }
