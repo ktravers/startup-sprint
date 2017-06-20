@@ -6,6 +6,10 @@ class App < Sinatra::Base
     erb :home
   end
 
+  get '/facepage' do
+    erb :facepage
+  end
+
   post '/subscribe' do
     @full_name = params[:full_name]
     @email = params[:email]
