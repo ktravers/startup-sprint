@@ -1,6 +1,9 @@
 require_relative 'config/environment'
 
 class App < Sinatra::Base
+  get '/home' do
+    redirect to('/')
+  end
   get '/' do
     @error = params['error']
     erb :home
@@ -47,8 +50,17 @@ class App < Sinatra::Base
       ['6:30pm', 'Meetup Presentation'],
     ]
 
-    # TODO: add a third day's schedule (@day_after)
+    @day_after = []
 
     erb :schedule
   end
+
+  get '/team' do
+    erb :team
+  end
+
+  get '/youtube' do
+    erb :youtube
+  end
+  
 end
