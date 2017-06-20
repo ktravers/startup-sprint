@@ -2,10 +2,42 @@
  * TODO: add custom styling
  */
 
+ #temp{
+   clear: left;
+   padding-left: 10%;
+ }
+  .nav {
+    list-style: none;
+    background-color: #111;
+
+  }
+
+ .nav li {
+
+    display: inline;
+    background-color: #111;
+  }
+
+  .nav li a {
+display: inline-block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+     text-decoration: none;
+ }
+
+ .nav li a:hover {
+     background-color: red;
+ }
+
 .column {
-  padding-left: 20px;
+
+float: left;
+width: 30%;
 
 }
+
+
 
 .nav {
   list-style: none;
