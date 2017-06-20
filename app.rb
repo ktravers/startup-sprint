@@ -6,6 +6,22 @@ class App < Sinatra::Base
     erb :home
   end
 
+  get '/home' do
+    redirect to('/')
+  end
+
+  get '/rainbow' do
+    erb :rainbow
+  end
+
+  get '/team' do
+    erb :team
+  end
+
+  get '/youtube' do
+    erb :youtube
+  end
+
   post '/subscribe' do
     @full_name = params[:full_name]
     @email = params[:email]
@@ -47,7 +63,15 @@ class App < Sinatra::Base
       ['6:30pm', 'Meetup Presentation'],
     ]
 
-    # TODO: add a third day's schedule (@day_after)
+    @day_after = [
+      ['6:15am', 'Wake up'],
+      ['6:30am', 'Work Out'],
+      ['8:00am', 'Breakfast'],
+      ['9:00am', 'Hardcore Coding'],
+      ['1:00pm', 'Lunch'],
+      ['3:00pm', 'Coffee Time'],
+      ['6:30pm', 'Bar'],
+    ]
 
     erb :schedule
   end
